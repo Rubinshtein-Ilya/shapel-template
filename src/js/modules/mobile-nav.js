@@ -1,14 +1,14 @@
-function mobileNav() {
-	// Mobile nav button
-	const navBtn = document.querySelector('.mobile-nav-btn');
-	const nav = document.querySelector('.mobile-nav');
-	const menuIcon = document.querySelector('.nav-icon');
+function openNav () {
+	const menuBtn = document.querySelector('#menu-btn');
+	const overlay = document.querySelector('#myNav');
 
-	navBtn.onclick = function () {
-		nav.classList.toggle('mobile-nav--open');
-		menuIcon.classList.toggle('nav-icon--active');
-		document.body.classList.toggle('no-scroll');
-	};
+	const toggleMenu = () => {
+		menuBtn.classList.toggle('burger-close');
+		overlay.classList.toggle('overlay-visible');
+	}
+
+	menuBtn.addEventListener('click', toggleMenu);	
 }
 
-export default mobileNav;
+
+export default openNav;

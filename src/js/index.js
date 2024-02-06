@@ -1,3 +1,5 @@
-import mobileNav from './modules/mobile-nav.js';
+import openNav from './modules/mobile-nav.js';
 
-mobileNav();
+window.addEventListener('DOMContentLoaded', () => {
+    openNav();
+});

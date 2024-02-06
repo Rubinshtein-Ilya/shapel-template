@@ -1,0 +1,44 @@
+.about {
+    width: 70vw;
+    margin: 60px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    &__block {
+        width: 40%;
+        flex: 1 1;
+    }
+
+    &__img {
+    }
+
+    &__title {
+        font-size: 32px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    &__content {
+        font-size: 18px;
+    }
+
+    &__btn {
+        font-size: 16px;
+        padding: 10px 45px;
+        background-color: #3a3f58;
+        color: #ffffff;
+        border-radius: 0;
+        border: 1px solid #3a3f58;
+        transition: all .2s;
+        display: inline-block;
+        margin-top: 10px;
+
+        &:hover {
+            background-color: #ffffff;
+            color: #3a3f58;
+        }
+    }
+}

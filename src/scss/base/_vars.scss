@@ -1,20 +1,16 @@
-:root {
-	--container-width: 1200px;
-	--container-padding: 15px;
+$white: #ffffff;
+$black: #000000;
+// $primary1: #004e9a;
+// $primary2: #428cd4;
+$primary1: #3a3f58;
+$primary2: #e45441;
+$bgColor:#041b2d;
 
-	--font-main: 'Poppins', sans-serif;
-	--font-accent: 'Playfair Display', serif;
-
-	--page-bg: #fff;
-	--text-color: #000;
-	--accent: #ac182c;
-
-    --laptop-size: 1199px;
-	--tablet-size: 959px;
-	--mobile-size: 599px;
+@mixin main-font {
+  font-family: "Poppins", sans-serif;
 }
 
-.dark {
-    --page-bg: #252526;
-    --text-color: #fff;
+@mixin secondary-font {
+  font-family: "octin sports", sans-serif;
 }
+
