@@ -21,7 +21,7 @@
 .logo {
 	z-index: 999;
 	&__text {
-		font-size: 24px;
+		font-size: 2.4rem;
 		font-weight: 700;
 		color: #ffffff;
 		text-transform: uppercase;
@@ -33,7 +33,7 @@
 }
 
 .carousel-arrow {
-	font-size: 18px;
+	font-size: 1.8rem;
 	background-color: #e45441;
     padding: 10px 20px;
     border-radius: 10px;
@@ -157,7 +157,7 @@
 	& a {
 		padding: 0px;
 		text-decoration: none;
-		font-size: 22px;
+		font-size: 2.2rem;
 		color: #ffffff;
 		display: block;
 		transition: 0.3s;
@@ -181,6 +181,7 @@
     padding: 45px;
     border-radius: 5px;
 	z-index: 9;
+	font-size: 1.6rem;
 
 	&__title {
 		font-weight: bold;
@@ -199,7 +200,6 @@
 		color: #000000;
 		border-radius: 5px;
 		border: 1px solid #ffffff;
-		-webkit-transition: all .2s;
 		transition: all .2s;
 		margin-top: 10px;
 
